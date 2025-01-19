@@ -2,7 +2,7 @@ import os
 from groq import Groq
 from PyPDF2 import PdfReader
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 # Parse PDF resume
 def parse_resume(pdf_path):
     reader = PdfReader(pdf_path)
